@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar-banner.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/jeu.css" />
+    <title>Chaosmos - Jeu d'Orientation Cosmique</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="main">
+      <nav>
+        <div class="navbar container">
+          <a href="index.html">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+          <div id="nav-toggle" class="menu">
+            <div class="nav-links">
+              <a href="index.html" class="menu-item">Home</a>
+              <a href="index.html#feature" class="menu-item">Features</a>
+              <a href="index.html#support" class="menu-item">Programme</a>
+              <a href="index.html#about" class="menu-item">About us</a>
+            </div>
+            <a
+              href="event2025.html"
+              class="btn-register btn-item"
+              type="button"
+            >
+              Event 2025
+            </a>
+            <a href="equipe.html" class="btn-register btn-item" type="button">
+              L'équipe
+            </a>
+          </div>
+          <span onclick="toggleAction(this)" id="btn-action">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <span onclick="toggleAction(this)" id="btn-back">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+      </nav>
+
+      <div class="game-header container">
+        <h1>Jeu d'Orientation <span>Cosmique</span></h1>
+        <p>
+          Résolvez les énigmes, explorez l'exposition et remportez des prix
+          exceptionnels
+        </p>
+      </div>
+    </div>
+
+    <!-- Game Introduction -->
+    <section class="game-intro">
+      <div class="container">
+        <div class="intro-content">
+          <h2>Une aventure intellectuelle à travers le cosmos</h2>
+          <p>
+            Découvrez notre jeu d'orientation exclusif qui vous mènera d'une
+            installation à l'autre tout en stimulant votre esprit et votre
+            curiosité. Chaque énigme résolue vous rapproche des mystères de
+            l'univers et de récompenses uniques !
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section class="how-to-play">
+      <div class="container">
+        <h2 class="section-title">Comment participer</h2>
+        <div class="steps-container">
+          <div class="step-item">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Inscription</h3>
+              <p>
+                Inscrivez-vous à l'accueil de l'exposition pour recevoir votre
+                carnet d'explorateur spatial contenant votre première énigme.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Résolution d'énigmes</h3>
+              <p>
+                Parcourez l'exposition à la recherche d'indices. Chaque
+                installation artistique cache une partie de la réponse à
+                l'énigme actuelle.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Progression</h3>
+              <p>
+                Résoudre une énigme vous conduit à l'installation suivante, où
+                une nouvelle énigme vous attend. Progressez à travers
+                l'exposition cosmique.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>Victoire</h3>
+              <p>
+                Les participants qui résolvent toutes les énigmes dans le temps
+                imparti remportent des prix exclusifs liés à l'astronomie et à
+                l'espace.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Game Features Section -->
+    <section class="game-features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Énigmes passionnantes</h3>
+            <p>
+              Des énigmes spécialement conçues pour tous les niveaux qui vous
+              feront réfléchir tout en vous immergant dans l'univers cosmique.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Course contre la montre</h3>
+            <p>
+              Vous disposez de 90 minutes pour résoudre toutes les énigmes et
+              compléter votre parcours stellaire.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-gift"></i>
+            <h3>Cadeaux exclusifs</h3>
+            <p>
+              Des récompenses uniques attendent les gagnants : télescopes,
+              livres dédicacés par des astronomes, places pour des observations
+              nocturnes...
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-user-group"></i>
+            <h3>Expérience en équipe</h3>
+            <p>
+              Participez seul ou en équipe de 2 à 4 personnes pour une
+              expérience collaborative et enrichissante.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Ce qu'en disent nos testeurs</h2>
+        <div class="testimonials-slider">
+          <div class="testimonial-item active">
+            <div class="testimonial-content">
+              <p>
+                "Une expérience incroyable qui allie parfaitement l'art, la
+                science et le jeu. Les énigmes sont bien pensées et nous ont
+                fait découvrir l'exposition sous un angle complètement différent
+                !"
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/women/45.jpg"
+                  alt="Marie L."
+                />
+                <div class="author-info">
+                  <h4>Marie L.</h4>
+                  <span>Participante de l'édition test</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item">
+            <div class="testimonial-content">
+              <p>
+                "Nous avons participé en famille et c'était passionnant ! Les
+                enfants étaient complètement absorbés par la résolution des
+                énigmes et ont appris beaucoup de choses sur l'espace sans même
+                s'en rendre compte."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="Thomas B."
+                />
+                <div class="author-info">
+                  <h4>Thomas B.</h4>
+                  <span>Père de famille et astronome amateur</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item">
+            <div class="testimonial-content">
+              <p>
+                "En tant qu'amateur d'escape games, j'ai été agréablement
+                surpris par la qualité et l'originalité des énigmes. Le lien
+                avec les installations artistiques est très bien pensé et offre
+                une dimension supplémentaire à l'exposition."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/67.jpg"
+                  alt="Lucas M."
+                />
+                <div class="author-info">
+                  <h4>Lucas M.</h4>
+                  <span>Amateur d'escape games</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots">
+          <span class="dot active" onclick="currentSlide(0)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration">
+      <div class="container">
+        <div class="registration-content">
+          <div class="registration-image">
+            <img
+              src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1080"
+              alt="Cosmos Game"
+            />
+          </div>
+          <div class="registration-info">
+            <h2>Places limitées !</h2>
+            <p>
+              Pour assurer une expérience optimale, le nombre de participants
+              est limité à 30 par session. Réservez dès maintenant pour vivre
+              cette aventure unique.
+            </p>
+            <ul class="registration-details">
+              <li>
+                <i class="fa-solid fa-calendar"></i> Dates : Tous les jours
+                pendant l'exposition
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i> Sessions : 11h, 14h et 16h
+              </li>
+              <li>
+                <i class="fa-solid fa-ticket"></i> Tarif : Inclus dans le billet
+                d'entrée
+              </li>
+              <li>
+                <i class="fa-solid fa-users"></i> Participants : Solo ou équipe
+                de 2 à 4 personnes
+              </li>
+            </ul>
+            <a href="#" class="registration-button">Réserver ma place</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+      <div class="basfooter">
+        <div class="piedviolet container">
+          <p class="titlepiedviolet">Contactez-nous pour plus d'informations</p>
+          <button id="buttonviolet">Contactez-nous</button>
+        </div>
+        <div class="pied container">
+          <div class="gauche">
+            <h3>CHAOSMOS</h3>
+            <p id="copy">&copy; Copyright 2025</p>
+          </div>
+          <div class="droite">
+            <a href="index.html">Home</a>
+            <a href="index.html#feature">Features</a>
+            <a href="index.html#support">Programme</a>
+            <a href="event2025.html">Event 2025</a>
+            <a href="equipe.html">L'équipe</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/jeu.js"></script>
+  </body>
+</html>
