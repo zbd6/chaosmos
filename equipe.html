@@ -17,23 +17,16 @@
     <div class="main">
       <nav>
         <div class="navbar container">
-          <a href="index.html">
-            <img src="images/logo.svg" alt="logo" />
+          <a href="#">
+            <img src="assets/images/logo-maif.jpg" alt="logo" />
           </a>
           <div id="nav-toggle" class="menu">
-            <div class="nav-links">
-              <a href="index.html" class="menu-item">Home</a>
-              <a href="index.html#feature" class="menu-item">Features</a>
-              <a href="index.html#detail" class="menu-item">Details</a>
-              <a href="index.html#support" class="menu-item">Supports</a>
-              <a href="index.html#about" class="menu-item">About us</a>
+            <div class="nav-links"> 
+              <a href="index.html" class="menu-item">Accueil</a>
+              <a href="index.html #programme" class="menu-item">Programme</a>
+              <a href="event2025.html" class="btn-register btn-item">Événement de 2025</a>
+              <a href="equipe.html" class="btn-register btn-item">L'équipe</a>
             </div>
-            <button class="btn-register btn-item" type="button">
-              Event 2025
-            </button>
-            <button class="btn-register btn-item active" type="button">
-              L'équipe
-            </button>
           </div>
           <span onclick="toggleAction(this)" id="btn-action">
             <i class="fa-solid fa-bars"></i>
@@ -56,7 +49,7 @@
     <!-- Team Section -->
     <section class="team-section">
       <div class="container">
-        <div class="team-intro">
+        <div class="team-intro" id="contact">
           <h2>Une équipe pluridisciplinaire</h2>
           <p>
             Chacun apporte sa pierre à l'édifice pour créer un événement
@@ -224,27 +217,14 @@
       </div>
     </section>
 
-    <!-- Join Us Section -->
-    <section class="join-section">
-      <div class="container">
-        <div class="join-content">
-          <h2>Rejoignez l'aventure Chaosmos</h2>
-          <p>
-            Vous êtes passionné par l'espace et la vulgarisation scientifique ?
-            Vous souhaitez contribuer à notre mission de rendre l'univers
-            accessible à tous ?
-          </p>
-          <a href="#" class="join-button">Contactez-nous</a>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer id="about">
       <div class="basfooter">
         <div class="piedviolet container">
-          <p class="titlepiedviolet">Contactez-nous pour plus d'informations</p>
-          <button id="buttonviolet">Contactez-nous</button>
+          <p class="titlepiedviolet">
+            Contactez-nous pour plus d'informations
+          </p>
+          <a href="equipe.html #contact"><button id="buttonviolet">Contactez-nous</button></a>
         </div>
         <div class="pied container">
           <div class="gauche">
@@ -252,11 +232,7 @@
             <p id="copy">&copy; Copyright 2025</p>
           </div>
           <div class="droite">
-            <a href="index.html">Home</a>
-            <a href="index.html#feature">Features</a>
-            <a href="index.html#detail">Details</a>
-            <a href="index.html#support">Programme</a>
-            <a href="equipe.html">L'équipe</a>
+            <a href="#">Retour en haut</a>
           </div>
         </div>
       </div>
@@ -264,6 +240,5 @@
 
     <script src="js/scroll.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/popup.js"></script>
   </body>
 </html>

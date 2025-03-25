@@ -5,6 +5,31 @@
     height: auto;
 }
 
+.main {
+    position: relative; /* Permet au canvas de s'ajuster sur .main */
+    background-color: var(--bg-darker);
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    overflow: hidden; /* Empêche les étoiles de déborder */
+}
+
+.main-content img {
+    position: relative; /* S'assure qu'il passe au-dessus du canvas */
+    z-index: 1; /* Plus grand que le canvas (qui est à 0) */
+}
+
+#starsCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Ne bloque pas les interactions */
+    z-index: 0; /* S'assure qu'il est en arrière-plan */
+}
+
+
 nav {
     position: fixed;
     left: 0;
@@ -55,8 +80,8 @@ nav {
     background-color: transparent;
     color: var(--accent-color);
     padding: 10px 20px;
+    text-decoration: none;
 }
-
 
 .btn-register:hover {
     background-color: var(--accent-color);
@@ -98,6 +123,8 @@ nav {
     font-size: 26px;
     color: var(--text-primary);
     width: fit-content;
+    position: relative; /* S'assure qu'il passe au-dessus du canvas */
+    z-index: 1; /* Plus grand que le canvas (qui est à 0) */
 }
 
 .banner-content>.badge {
@@ -111,6 +138,8 @@ nav {
     color: var(--bg-darker);
     padding: 5px 10px;
     border-radius: 5px;
+    position: relative; /* S'assure qu'il passe au-dessus du canvas */
+    z-index: 1; /* Plus grand que le canvas (qui est à 0) */
 }
 
 .input-subscribe {
@@ -144,7 +173,7 @@ nav {
     color: var(--accent-color);
 }
 
-.logo-sponsor {
+.logo {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -152,8 +181,8 @@ nav {
     color: var(--text-tertiary);
 }
 
-.logo-sponsor img {
-    width: 50px;
+.main .navbar img {
+    width: 80px;
     filter: brightness(0.8) contrast(1.2);
 }
 

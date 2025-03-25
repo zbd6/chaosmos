@@ -17,27 +17,16 @@
     <div class="main">
       <nav>
         <div class="navbar container">
-          <a href="index.html">
-            <img src="images/logo.svg" alt="logo" />
+          <a href="#">
+            <img src="assets/images/logo-maif.jpg" alt="logo" />
           </a>
           <div id="nav-toggle" class="menu">
             <div class="nav-links">
-              <a href="index.html" class="menu-item">Home</a>
-              <a href="index.html#feature" class="menu-item">Features</a>
-              <a href="index.html#detail" class="menu-item">Details</a>
-              <a href="index.html#support" class="menu-item">Programme</a>
-              <a href="index.html#about" class="menu-item">About us</a>
+              <a href="index.html" class="menu-item">Accueil</a>
+              <a href="index.html #programme" class="menu-item">Programme</a>
+              <a href="event2025.html" class="btn-register btn-item">Événement de 2025</a>
+              <a href="equipe.html" class="btn-register btn-item">L'équipe</a>
             </div>
-            <a
-              href="event2025.html"
-              class="btn-register btn-item active"
-              type="button"
-            >
-              Event 2025
-            </a>
-            <a href="equipe.html" class="btn-register btn-item" type="button">
-              L'équipe
-            </a>
           </div>
           <span onclick="toggleAction(this)" id="btn-action">
             <i class="fa-solid fa-bars"></i>
@@ -49,7 +38,7 @@
       </nav>
 
       <div class="event-header container">
-        <h1>Chaosmos <span>2025</span></h1>
+        <h1>Petit tour vers l'événement Chaosmos de <span>2025</span></h1>
         <p>Un voyage cosmique qui redéfinira votre perception de l'univers</p>
       </div>
     </div>
@@ -196,29 +185,14 @@
       </div>
     </section>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter-section">
-      <div class="container">
-        <div class="newsletter-content">
-          <h2>Restez informé</h2>
-          <p>
-            Inscrivez-vous à notre newsletter pour recevoir les dernières
-            actualités sur l'événement Chaosmos 2025
-          </p>
-          <form class="newsletter-form">
-            <input type="email" placeholder="Votre adresse e-mail" required />
-            <button type="submit">S'inscrire</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer id="about">
       <div class="basfooter">
         <div class="piedviolet container">
-          <p class="titlepiedviolet">Contactez-nous pour plus d'informations</p>
-          <button id="buttonviolet">Contactez-nous</button>
+          <p class="titlepiedviolet">
+            Contactez-nous pour plus d'informations
+          </p>
+          <a href="equipe.html #contact"><button id="buttonviolet">Contactez-nous</button></a>
         </div>
         <div class="pied container">
           <div class="gauche">
@@ -226,11 +200,7 @@
             <p id="copy">&copy; Copyright 2025</p>
           </div>
           <div class="droite">
-            <a href="index.html">Home</a>
-            <a href="index.html#feature">Features</a>
-            <a href="index.html#support">Programme</a>
-            <a href="event2025.html">Event 2025</a>
-            <a href="equipe.html">L'équipe</a>
+            <a href="#">Retour en haut</a>
           </div>
         </div>
       </div>
@@ -238,7 +208,6 @@
 
     <script src="js/scroll.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/popup.js"></script>
     <script src="js/event2025.js"></script>
   </body>
 </html>

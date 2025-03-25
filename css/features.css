@@ -1,4 +1,6 @@
-.feature{
+.feature {
+    width: 100%;
+    padding: 0 5%;
     padding-top: 100px;
     background-color: #1a1a2e;
     color: #f1f1f1;
@@ -48,20 +50,34 @@
 
 .feature .services .service .box_1{
     background-image: linear-gradient(-45deg, #FFCF4C,#FFE397);
-    
 }
 
 .feature .services .service .box_2{
-    background-image: linear-gradient(-45deg, #2CDADA, #91ECEC);
-    
+    background-image: linear-gradient(-45deg, #2CDADA, #91ECEC);   
 }
+
 .feature .services .service .box_3{
-    background-image: linear-gradient(-45deg ,#149DE8, #72C4F1);
-    
+    background-image: linear-gradient(-45deg ,#149DE8, #72C4F1);    
 }
+
 .feature .services .service .box_4{
-    background-image: linear-gradient(-45deg, #FF9770, #FFC2AB);
-        
+    background-image: linear-gradient(-45deg, #FF9770, #FFC2AB);    
+}
+
+.feature .services .service .box_1 img {
+    width: 60px;
+}
+
+.feature .services .service .box_2 img {
+    width: 60px;
+}
+
+.feature .services .service .box_3 img {
+    width: 60px;
+}
+
+.feature .services .service .box_4 img {
+    width: 65px;
 }
 
 .feature .subtitle-gras{

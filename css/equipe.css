@@ -13,6 +13,7 @@
 
 .team-header h1 {
   font-size: 3.5rem;
+  margin-top: 150px;
   margin-bottom: 1rem;
   color: #fff;
 }
@@ -184,49 +185,6 @@
   line-height: 1.6;
 }
 
-/* Join Section */
-.join-section {
-  padding: 100px 0;
-  background-color: #6d3269;
-  color: white;
-}
-
-.join-content {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.join-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.join-section p {
-  font-size: 1.1rem;
-  margin-bottom: 30px;
-  opacity: 0.9;
-  line-height: 1.6;
-}
-
-.join-button {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: #f1f1f1;
-  color: #6d3269;
-  font-weight: 600;
-  border-radius: 50px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.join-button:hover {
-  background-color: #2c2c54;
-  color: #f1f1f1;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
 /* Active Button State */
 .btn-register.active {
   background-color: #a970a7;
@@ -240,11 +198,7 @@
   }
   
   .team-intro h2, 
-  .values-section h2, 
-  .join-section h2 {
-    font-size: 2rem;
-  }
-  
+  .values-section h2,
   .team-grid,
   .values-grid {
     grid-template-columns: 1fr;
@@ -252,9 +206,5 @@
   
   .member-image {
     height: 220px;
-  }
-  
-  .join-section {
-    padding: 60px 0;
   }
 } 

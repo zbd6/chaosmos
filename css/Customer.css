@@ -4,19 +4,11 @@
     color: #f1f1f1;
 }
 
-.txt1 .title1 {
+.txt1 #programme {
     text-align: center;
     color: #a970a7;
-    font-size: 1em;
+    font-size: 40px;
     font-weight: 600;
-}
-
-.txt1 h2 {
-    font-weight: bolder;
-    color: #f1f1f1;
-    text-align: center;
-    margin-top: 8px;
-    font-size: 1.5em;
 }
 
 .txt2 {
