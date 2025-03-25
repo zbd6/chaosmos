@@ -28,8 +28,8 @@
     font-family: "DM Sans", sans-serif;
 }
 
-.container{
-    width: 1200px;
+.container {
+    padding: 0 5%;
     margin: 0 auto;
 }
 
